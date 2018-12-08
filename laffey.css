@@ -1,3 +1,19 @@
+:root {
+    --background: url(https://media.discordapp.net/attachments/373294213632098318/467106907929313311/DfYJRf3V4AAlIKU.jpg);  /*Wallpaper.*/
+    --light: rgba(0, 0, 0, 0.6); /* Overall brightness. 1= black, 0 = transparent */
+	--trans: rgba(0, 0, 0, .0);	
+	--accentcolor:187,146,221;  /*187,146,221*/		
+	--font: Whitney;	/* Whitney */
+	--font-size: 15px ;
+	--text:  #fff;
+}
+	
+/*  Your META and root should be in your MyTheme.theme.css To give to other people. ^^^^
+
+
+Everything below goes in to a new file, MyTheme.css for import */
+
+
 /* Scrollbars */
 ::-webkit-scrollbar-thumb {border-color: transparent !important; background: rgba(0,0,0,0.4) !important;} 
 ::-webkit-scrollbar, ::-webkit-scrollbar-track-piece {border-color: transparent !important; background: transparent !important;} 
